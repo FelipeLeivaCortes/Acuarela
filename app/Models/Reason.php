@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Reason extends Model
+{
+    use HasFactory;
+
+    const REASONS = ['PROTECCIÓN SEGÚN ORDEN DEL TRIBUNAL', 'VICTIMA DE MALTRATO FÍSICO MODERADO',
+                    'VICTIMA DE MALTRATO PSICOLÓGICO LEVE A MODERADO', 'VICTIMA DE NEGLIGENCIA LEVE',
+                    'VICTIMA DE NEGLIGENCIA MODERADA', 'VICTIMA-TESTIGO DE NEGLIGENCIA MODERADA',
+                    'VICTIMA-TESTIGO DE VIOLENCIA INTRAFAMILIAR MODERADA', 'VICTIMA-TESTIGO DE VIOLENCIA INTRAFAMILIAR LEVE',
+                    'VICTIMA-TESTIGO DE VIOLENCIA INTRAFAMILIAR MODERADA'];
+
+}
